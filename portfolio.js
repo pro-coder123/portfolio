@@ -6,7 +6,7 @@ export const greetings = {
 	description:
 		"Welcome to my corner of the internet! I am a seasoned backend developer with a focus on distributed systems.",
 	resumeLink:
-		"https://drive.google.com/file/d/1Jj4QvvMMhRZQrxngrvlhmuTLhgcisaAp/view?usp=sharing",
+		"https://drive.google.com/file/d/1xyMv0p9cIvd3aQEUHZQ5im101mq7undt/view?usp=sharing",
 };
 
 export const openSource = {
@@ -18,9 +18,8 @@ export const contact = {};
 export const socialLinks = {
 	github: "https://github.com/pro-coder123",
 	linkedin: "https://www.linkedin.com/in/varun-mukundhan/",
-	stackoverflow: "hey",
-	leetcode: "",
-	medium: ""
+	stackoverflow: "https://stackoverflow.com/users/10994745/varun-mukundhan",
+	leetcode: "https://leetcode.com/codezer/"
 };
 
 export const skillsSection = {

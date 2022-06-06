@@ -55,7 +55,7 @@ const ExperienceCard = ({ data }) => {
 							<ul>
 								{data.descBullets
 									? data.descBullets.map((desc) => {
-											return <div><li key={desc}>{desc}</li><br/></div>;
+										return <div key={desc}><li>{desc}</li><br/></div>;
 									  })
 									: null}
 							</ul>

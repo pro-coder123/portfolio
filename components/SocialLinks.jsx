@@ -77,17 +77,17 @@ const SocialLinks = () => {
 					</span>
 				</Button>
 			)}
-			{socialLinks.twitter && (
+			{socialLinks.leetcode && (
 				<Button
 					className="btn-icon-only rounded-circle"
 					color="twitter"
-					href={socialLinks.twitter}
+					href={socialLinks.leetcode}
 					target="_blank"
 					rel="noopener"
 					aria-label="Twitter"
 				>
 					<span className="btn-inner--icon">
-						<i className="fa fa-twitter" />
+						<img src="/img/icons/common/leetcode.svg" alt=""/>
 					</span>
 				</Button>
 			)}
