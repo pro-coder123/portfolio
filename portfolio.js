@@ -1,8 +1,8 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Varun Mukundhan",
+	title: "Hi all, I'm Varun",
 	description:
 		"I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
 	resumeLink:
@@ -16,9 +16,6 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
 	github: "https://github.com/1hanzla100",
 	linkedin: "https://www.linkedin.com/in/1hanzla100/",
 };
