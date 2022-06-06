@@ -117,91 +117,54 @@ export const skillsSection = {
 				},
 			],
 		},
-		{
-			title: "Blockchain",
-			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
-			skills: [
-				emoji(
-					"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
-				),
-				emoji(
-					"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
-				),
-				emoji(
-					"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
-				),
-				emoji(
-					"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
-				),
-				emoji(
-					"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
-				),
-			],
-			softwareSkills: [
-				{
-					skillName: "Ethereum",
-					fontAwesomeClassname: "logos:ethereum",
-				},
-				{
-					skillName: "Solidity",
-					fontAwesomeClassname: "logos:solidity",
-				},
-				{
-					skillName: "Web3js",
-					fontAwesomeClassname: "logos:web3js",
-				},
-				{
-					skillName: "Metamask",
-					fontAwesomeClassname: "logos:metamask-icon",
-				},
-				{
-					skillName: "Ganache",
-					fontAwesomeClassname: "logos:ganache-icon",
-				},
-			],
-		},
 	],
 };
 
 export const SkillBars = [
 	{
-		Stack: "Frontend/Design", //Insert stack or technology you have experience in
+		Stack: "System Architecture", //Insert stack or technology you have experience in
 		progressPercentage: "90", //Insert relative proficiency in percentage
 	},
 	{
 		Stack: "Backend",
-		progressPercentage: "70",
+		progressPercentage: "90",
 	},
 	{
-		Stack: "Programming",
+		Stack: "Data structures and algorithms",
+		progressPercentage: "100",
+	},
+	{
+		Stack: "Databases",
 		progressPercentage: "60",
 	},
 ];
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
+		schoolName: "BITS Pilani",
+		subHeader: "Bachelor's degree in chemical engineering",
+		duration: "August 2015 - July 2019",
+		desc: "Graduated in first division",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"Founded the algorithms club",
 		],
 	},
 ];
 
 export const experience = [
 	{
-		role: "API Engineer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Jan 2022 – Mar 2022",
-		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
-		// descBullets: [
-		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		// ],
+		role: "Software development engineer",
+		company: "Razorpay (YCombinator '15)",
+		link: "https://www.ycombinator.com/companies/razorpay",
+		link_desc: "YC link",
+		companylogo: "/img/icons/common/rzp.svg",
+		date: "June 2021 – Jule 2022",
+		desc: "I worked as a backend engineer for the notifications team. My team was responsible for the delivery of every kind of notification from Razorpay. This included SMSes, Emails directly to end users containing OTPs, invoices, etc along with payment confirmation webhooks to the merchants' servers. My team was one of the most crucial teams at Razorpay and as a result, we have aggressive NFR goals, such as availability of five nines.",
+		descBullets: [
+			"I implemented async DB writes of our notification attempts using kafka streams. This led to enormous horizontal scalability of worker pods. What used to be previously capped at ~190 pods could now be scaled to 1000 and more based on the load. Controlling the rate at which ingestion is happening in the DB made sure the DB did not go down due to unprecedented load, thus improving the reliability of our system.",
+			"I implemented quality of service based flow control for webhooks based on the merchant server's response time using Apache Pinot as the data source. Essentially, what this would do is stream merchant response time details to Pinot after each webhook attempt. Then in our Web pods, we would query Pinot to find out merchants that have a response time greater than some predefined value and route such merchants' webhooks to a lower priority queue. This tremendouesly improved the p99 webhooks delivery time (over 50% reduction in time taken was seen).",
+			"I worked on and helped deliver the webhooks flow control as well as rate limiting feature. I drove this feature end to end, did tech solutioning and execution. Did numerous performance tests and consulted with various stakeholders. This protected our service from DDOS attacks"
+		],
 	},
 	{
 		role: "Full Stack Developer",

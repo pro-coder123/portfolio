@@ -39,6 +39,9 @@ const ExperienceCard = ({ data }) => {
 						<CardTitle tag="h4" className="mb-2">
 							{data.company}
 						</CardTitle>
+						<CardTitle tag="h5" className="mb-4">
+							<a href={data.link} className="link-primary">{data.link_desc}</a>
+						</CardTitle>
 						<CardSubtitle tag="h5" className="mb-2">
 							{data.role}
 						</CardSubtitle>
@@ -48,10 +51,11 @@ const ExperienceCard = ({ data }) => {
 							className="description my-3 text-left"
 						>
 							{data.desc}
+							<br/><br/>
 							<ul>
 								{data.descBullets
 									? data.descBullets.map((desc) => {
-											return <li key={desc}>{desc}</li>;
+											return <div><li key={desc}>{desc}</li><br/></div>;
 									  })
 									: null}
 							</ul>
