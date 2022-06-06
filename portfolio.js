@@ -4,59 +4,55 @@ export const greetings = {
 	name: "Varun Mukundhan",
 	title: "Hi all, I'm Varun",
 	description:
-		"I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+		"Welcome to my corner of the internet! I am a seasoned backend developer with a focus on distributed systems.",
 	resumeLink:
 		"https://drive.google.com/file/d/1Jj4QvvMMhRZQrxngrvlhmuTLhgcisaAp/view?usp=sharing",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "pro-coder123",
 };
 
 export const contact = {};
 
 export const socialLinks = {
 	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/1hanzla100/",
+	linkedin: "https://www.linkedin.com/in/varun-mukundhan/",
 };
 
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"I work on high scale distributed systems",
 	data: [
 		{
-			title: "Full Stack Development",
+			title: "Programming and software development",
 			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
-					"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
+					"⚡ Building backend applications using several popular frameworks"
 				),
-				emoji("⚡ Building responsive static websites using Next.js"),
+				emoji("⚡ Focus on delivering complete working product including but not limited to solutioning, design, development and infrastructure provisioing"),
 				emoji(
-					"⚡ Building RESTful APIs in Django & Django REST Framework"
+					"⚡ Familiar with an array of languages and frameworks including Springboot (Java), Django (Python), Ruby on Rails, Javascript and Golang"
 				),
 			],
 			softwareSkills: [
 				{
-					skillName: "HTML-5",
-					fontAwesomeClassname: "vscode-icons:file-type-html",
-				},
-				{
-					skillName: "CSS-3",
-					fontAwesomeClassname: "vscode-icons:file-type-css",
+					skillName: "Golang",
+					fontAwesomeClassname: "fa6-brands:golang",
 				},
 				{
 					skillName: "JavaScript",
 					fontAwesomeClassname: "logos:javascript",
 				},
 				{
-					skillName: "Reactjs",
-					fontAwesomeClassname: "vscode-icons:file-type-reactjs",
+					skillName: "Ruby",
+					fontAwesomeClassname: "logos:ruby",
 				},
 				{
-					skillName: "Nextjs",
-					fontAwesomeClassname: "vscode-icons:file-type-light-next",
+					skillName: "Java",
+					fontAwesomeClassname: "logos:java",
 				},
 				{
 					skillName: "Python",
@@ -66,31 +62,20 @@ export const skillsSection = {
 					skillName: "Django",
 					fontAwesomeClassname: "vscode-icons:file-type-django",
 				},
-
-				{
-					skillName: "Redux",
-					fontAwesomeClassname: "logos:redux",
-				},
-				{
-					skillName: "NPM",
-					fontAwesomeClassname: "logos:npm-icon",
-				},
-				{
-					skillName: "Yarn",
-					fontAwesomeClassname: "logos:yarn",
-				},
 			],
 		},
 		{
-			title: "Cloud Infra-Architecture",
+			title: "Systems architecture and infrastructure",
 			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
 			skills: [
-				emoji("⚡ Experience of working on multiple cloud platforms"),
+				emoji("⚡ Experienced with building high scale applications that can handle thousands of requests per second"),
+				emoji("⚡ Have worked with a vast set of SQL and NoSQL databases including MySQL, MongoDB, PosgresQL, Redis"),
+				emoji("⚡ Have hands on experience in rapid scaling up of an application through async processing, message queues and adding caching mechanisms"),
 				emoji(
-					"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
+					"⚡ Highly experienced in working with major cloud providers such as AWS and Heroku. Have also worked in provisioning codified infrastructure using terraform"
 				),
 				emoji(
-					"⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
+					"⚡ Have built deployment pipelines using docker, kubernetes and spinnakar"
 				),
 			],
 			softwareSkills: [
@@ -99,40 +84,36 @@ export const skillsSection = {
 					fontAwesomeClassname: "logos:aws",
 				},
 				{
-					skillName: "Azure",
-					fontAwesomeClassname: "logos:microsoft-azure",
-				},
-				{
 					skillName: "Heroku",
 					fontAwesomeClassname: "logos:heroku-icon",
+				},
+				{
+					skillName: "MySQL",
+					fontAwesomeClassname: "logos:mysql",
+				},
+				{
+					skillName: "Redis",
+					fontAwesomeClassname: "logos:redis",
+				},
+				{
+					skillName: "MongoDB",
+					fontAwesomeClassname: "vscode-icons:file-type-mongo",
 				},
 				{
 					skillName: "PostgreSQL",
 					fontAwesomeClassname: "logos:postgresql",
 				},
 				{
-					skillName: "Github",
-					fontAwesomeClassname: "akar-icons:github-fill",
-				},
-				{
 					skillName: "Docker",
 					fontAwesomeClassname: "logos:docker-icon",
 				},
 				{
-					skillName: "Github Actions",
-					fontAwesomeClassname: "logos:github-actions",
+					skillName: "Kubernetes",
+					fontAwesomeClassname: "logos:kubernetes",
 				},
 				{
-					skillName: "Cloudinary",
-					fontAwesomeClassname: "logos:cloudinary",
-				},
-				{
-					skillName: "Nginx",
-					fontAwesomeClassname: "logos:nginx",
-				},
-				{
-					skillName: "Sentry",
-					fontAwesomeClassname: "logos:sentry-icon",
+					skillName: "Terraform",
+					fontAwesomeClassname: "logos:terraform-icon",
 				},
 			],
 		},
