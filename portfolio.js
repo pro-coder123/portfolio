@@ -16,8 +16,11 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	github: "https://github.com/1hanzla100",
+	github: "https://github.com/pro-coder123",
 	linkedin: "https://www.linkedin.com/in/varun-mukundhan/",
+	stackoverflow: "hey",
+	leetcode: "",
+	medium: ""
 };
 
 export const skillsSection = {
@@ -30,7 +33,7 @@ export const skillsSection = {
 			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
-					"⚡ Building backend applications using several popular frameworks"
+					"⚡ Building backend microservices using several popular frameworks"
 				),
 				emoji("⚡ Focus on delivering complete working product including but not limited to solutioning, design, development and infrastructure provisioing"),
 				emoji(
@@ -158,7 +161,7 @@ export const experience = [
 		link: "https://www.ycombinator.com/companies/razorpay",
 		link_desc: "YC link",
 		companylogo: "/img/icons/common/rzp.svg",
-		date: "June 2021 – Jule 2022",
+		date: "June 2021 – August 2022",
 		desc: "I worked as a backend engineer for the notifications team. My team was responsible for the delivery of every kind of notification from Razorpay. This included SMSes, Emails directly to end users containing OTPs, invoices, etc along with payment confirmation webhooks to the merchants' servers. My team was one of the most crucial teams at Razorpay and as a result, we have aggressive NFR goals, such as availability of five nines.",
 		descBullets: [
 			"I implemented async DB writes of our notification attempts using kafka streams. This led to enormous horizontal scalability of worker pods. What used to be previously capped at ~190 pods could now be scaled to 1000 and more based on the load. Controlling the rate at which ingestion is happening in the DB made sure the DB did not go down due to unprecedented load, thus improving the reliability of our system.",
@@ -167,48 +170,57 @@ export const experience = [
 		],
 	},
 	{
-		role: "Full Stack Developer",
-		company: "Bleed-AI",
-		companylogo: "/img/icons/common/bleedAI.jpg",
-		date: "Sept 2021 - Oct 2021",
-		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
-	},
-	{
-		role: "Backend Developer",
-		company: "Wapidu",
-		companylogo: "/img/icons/common/wapidu.jpg",
-		date: "Sept 2021",
-		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
+		role: "Software development engineer",
+		company: "Chronus",
+		companylogo: "/img/icons/common/chronus.png",
+		link: "https://chronus.com/about-us",
+		link_desc: "Link",
+		date: "Jan 2020 - May 2021",
+		desc: "I worked as a ruby on rails developer for the mentorship application. ",
+		descBullets: [
+			"Over my tenure of\n" +
+			"1.3 years at Chronus as a software developer, my contributions to the company were to add various features\n" +
+			"to help with customer retainment.",
+			"My work at Chronus involved heavy use of algorithms. One notable algorithm that I used was\n" +
+			"LCA(least common ancestor) to find the common mentor who mentored two given mentees.",
+			"In addition to development, the infrastructure auto-scaling functionality I designed and implemented saved the\n" +
+			"company $0.07 per service call in infrastructure cost and ensured maximum availability and traffic readiness. This was implemented using AWS autoscaling groups and lambda functions",
+			],
 	},
 ];
 
 export const projects = [
 	{
-		name: "AtlasMart",
-		desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
-		link: "https://atlasmart.netlify.app/",
+		name: "Fastcar",
+		desc: "Created a fully functional car game using C++.\n" +
+			"The game utilizes the C++ graphics library and creates an animated\n" +
+			"road with various obstacles the car has to overcome.\n" +
+			"\n" +
+			"The scores are calculated based on the number of obstacles over-\n" +
+			"come and stored",
+		github: "https://github.com/pro-coder123/FastCar",
 	},
 	{
-		name: "Technota (Forum)",
-		desc: "Get hands-on experience in technical skills with Technota",
-		link: "https://technota.netlify.app/",
+		name: "Chat application",
+		desc: "Created a simple chat application using Golang",
+		github: "https://github.com/pro-coder123/goChat",
 	},
 	{
-		name: "Shopaza (Ecommerce)",
-		desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
-		link: "https://shopaza.herokuapp.com/",
+		name: "Contently (Content sharing platform)",
+		desc: "Created a complete production level web application using spring-\n" +
+			"boot micro-services and angular.\n" +
+			"\n" +
+			"This is a platform where anyone can share their stories, opinion,\n" +
+			"essays, poetry, research, ideas or reflections without constraints\n" +
+			"on topic, genre, or length of publication.\n" +
+			"Uses multiple databases such as MySQL, MongoDB, Neo4j.\n" +
+			"Dockerized, deployed and hosted in AWS.",
+		github: "https://github.com/pro-coder123/contently_new",
 	},
 	{
-		name: "MMFmelody (Blog)",
-		desc: "Here you will find amazing tips about health, beauty, and modern-day life.",
-		// github: "https://github.com/1hanzla100",
-		link: "https://mmfmelody.herokuapp.com/",
-	},
-	{
-		name: "Developer-Portfolio",
-		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-		github: "https://github.com/1hanzla100/developer-portfolio",
-		link: "https://developer-portfolio-1hanzla100.vercel.app/",
+		name: "University timetable booking system",
+		desc: "Created a modern timetable and class booking system using ruby on rails.",
+		github: "https://github.com/pro-coder123/University",
 	},
 ];
 

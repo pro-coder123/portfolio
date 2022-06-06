@@ -63,6 +63,20 @@ const SocialLinks = () => {
 					</span>
 				</Button>
 			)}
+			{socialLinks.stackoverflow && (
+				<Button
+					className="btn-icon-only rounded-circle ml-1"
+					color="google-plus"
+					rel="noopener"
+					aria-label="Stackoverflow"
+					href={socialLinks.stackoverflow}
+					target="_blank"
+				>
+					<span className="btn-inner--icon">
+						<i className="fa fa-stack-overflow"/>
+					</span>
+				</Button>
+			)}
 			{socialLinks.twitter && (
 				<Button
 					className="btn-icon-only rounded-circle"
