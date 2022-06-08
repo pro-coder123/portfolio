@@ -2,9 +2,10 @@ import emoji from "react-easy-emoji";
 
 export const greetings = {
 	name: "Varun Mukundhan",
-	title: "Hi all, I'm Varun",
+	title: "Hi there, I'm Varun",
 	description:
-		"Welcome to my corner of the internet! I am a seasoned backend developer with a focus on distributed systems.",
+		"Welcome to my corner of the internet! I am a backend developer with a focus on distributed systems. I am really passionate about\n" +
+		"programming and problem solving in general. I have over 3 years of industry experience in building and scaling applications in production.",
 	resumeLink:
 		"https://drive.google.com/file/d/1xyMv0p9cIvd3aQEUHZQ5im101mq7undt/view?usp=sharing",
 };
@@ -25,7 +26,7 @@ export const socialLinks = {
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"I work on high scale distributed systems",
+		"I build software that runs on production",
 	data: [
 		{
 			title: "Programming and software development",
@@ -72,7 +73,7 @@ export const skillsSection = {
 			skills: [
 				emoji("⚡ Experienced with building high scale applications that can handle thousands of requests per second"),
 				emoji("⚡ Have worked with a vast set of SQL and NoSQL databases including MySQL, MongoDB, PosgresQL, Redis"),
-				emoji("⚡ Have hands on experience in rapid scaling up of an application through async processing, message queues and adding caching mechanisms"),
+				emoji("⚡ Have experience scaling systems using streaming platforms such as kafka, kinesis and message queues such as SQS"),
 				emoji(
 					"⚡ Highly experienced in working with major cloud providers such as AWS and Heroku. Have also worked in provisioning codified infrastructure using terraform"
 				),
@@ -124,6 +125,10 @@ export const skillsSection = {
 
 export const SkillBars = [
 	{
+		Stack: "Problem solving",
+		progressPercentage: "90",
+	},
+	{
 		Stack: "System Architecture", //Insert stack or technology you have experience in
 		progressPercentage: "90", //Insert relative proficiency in percentage
 	},
@@ -147,9 +152,7 @@ export const educationInfo = [
 		subHeader: "Bachelor's degree in chemical engineering",
 		duration: "August 2015 - July 2019",
 		desc: "Graduated in first division",
-		descBullets: [
-			"Founded the algorithms club",
-		],
+		pic: "/img/icons/common/bits.png",
 	},
 ];
 
@@ -174,17 +177,44 @@ export const experience = [
 		companylogo: "/img/icons/common/chronus.png",
 		link: "https://chronus.com/about-us",
 		link_desc: "Link",
-		date: "Jan 2020 - May 2021",
+		date: "Feb 2020 - June 2021",
 		desc: "I worked as a ruby on rails developer for the mentorship application. ",
 		descBullets: [
 			"Over my tenure of\n" +
-			"1.3 years at Chronus as a software developer, my contributions to the company were to add various features\n" +
+			"1.5 years at Chronus as a software developer, my contributions to the company were to add various features\n" +
 			"to help with customer retainment.",
 			"My work at Chronus involved heavy use of algorithms. One notable algorithm that I used was\n" +
 			"LCA(least common ancestor) to find the common mentor who mentored two given mentees.",
 			"In addition to development, the infrastructure auto-scaling functionality I designed and implemented saved the\n" +
 			"company $0.07 per service call in infrastructure cost and ensured maximum availability and traffic readiness. This was implemented using AWS autoscaling groups and lambda functions",
 			],
+	},
+	{
+		role: "Software engineer",
+		company: "CGI",
+		companylogo: "/img/icons/common/cgi.png",
+		link: "https://www.cgi.com/en",
+		link_desc: "Link",
+		date: "April 2019 - Feb 2020",
+		desc: "I worked as a backend developer in the Communications, Media and Utilities (CMU) business unit",
+		descBullets: [
+			"Created production level web applications using spring-boot\n" +
+			"micro-services and angular.",
+		],
+	},
+	{
+		role: "Software engineering intern",
+		company: "Blue Yonder",
+		companylogo: "/img/icons/common/bt.jpeg",
+		link: "https://blueyonder.com/",
+		link_desc: "Link",
+		date: "Jan 2019 - April 2019",
+		desc: "I worked as a backend developer intern in the supply chain unit",
+		descBullets: [
+			"Created dashboards for alert automation and managed file transfers using powershell and ASP.NET.",
+			"Used powershell to automate several parts of server build and\n" +
+			"validation."
+		],
 	},
 ];
 

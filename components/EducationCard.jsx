@@ -13,6 +13,24 @@ const EducationCard = ({ education }) => {
 							<h5 className="text-info">
 								{education.schoolName}
 							</h5>
+							<center>
+								<img
+									src={education.pic}
+									style={{
+										objectFit: "cover",
+										left: 0,
+										right: 0,
+										top: "7rem",
+										marginLeft: "auto",
+										marginRight: "auto",
+										width: "8rem",
+										height: "8rem",
+										borderRadius: "50%",
+									}}
+									className="shadow mb-3"
+									alt={education.pic}
+								/>
+							</center>
 							<h6>{education.subHeader}</h6>
 							<Badge color="info" className="mr-1">
 								{education.duration}

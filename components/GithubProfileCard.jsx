@@ -11,22 +11,15 @@ const GithubProfileCard = ({ prof }) => {
 			<Container className="">
 				<div className="p-2">
 					<Row className="">
-						<Col className="order-lg-2" lg="4">
-							<img
-								src={prof.avatar_url}
-								style={{ width: "200px" }}
-								alt=""
-								className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
-							/>
-						</Col>
 						<Col lg="8" className="order-lg-1">
 							<p className="lead text-white mt-3">
-								WANNA DISCUSS SOMETHING TECH RELATED OR JUST SAY HELLO? MY INBOX IS OPEN TO ALL
+								Wanna reach out to me? My inbox is open.
 							</p>
-							<p className="text-white mt-3">{prof.bio}</p>
-							<div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
-								<i className="ni ni-pin-3 text-info mr-2" />
-								{prof.location}
+							<div className="icon-shape shadow rounded text-info">
+								<i className="fa fa-envelope-open mr-3"/> <a href="mailto: varun.mukundhan@gmail.com" className="text-info">varun.mukundhan@gmail.com</a> <br/>
+							</div>
+							<div className="icon-shape shadow rounded text-info">
+								<i className="fa fa-solid fa-phone mr-3"/> +918939530620<br/>
 							</div>
 							<SocialLinks />
 						</Col>
