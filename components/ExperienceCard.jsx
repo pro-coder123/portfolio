@@ -40,7 +40,7 @@ const ExperienceCard = ({ data }) => {
 							{data.company}
 						</CardTitle>
 						<CardTitle tag="h5" className="mb-4">
-							<a href={data.link} target="_blank" className="link-primary">{data.link_desc}</a>
+							<a href={data.link} target="_blank" rel="noopener" className="link-primary">{data.link_desc}</a>
 						</CardTitle>
 						<CardSubtitle tag="h5" className="mb-2">
 							{data.role}
