@@ -163,7 +163,7 @@ export const experience = [
 		link: "https://www.ycombinator.com/companies/razorpay",
 		link_desc: "YC link",
 		companylogo: "/img/icons/common/rzp.svg",
-		date: "June 2021 – August 2022",
+		date: "June 2021 – Present",
 		desc: "I worked as a backend engineer for the notifications team. My team was responsible for the delivery of every kind of notification from Razorpay. This included SMSes, Emails directly to end users containing OTPs, invoices, etc along with payment confirmation webhooks to the merchants' servers. My team was one of the most crucial teams at Razorpay and as a result, we have aggressive NFR goals, such as availability of five nines.",
 		descBullets: [
 			"I implemented async DB writes of our notification attempts using kafka streams. This led to enormous horizontal scalability of worker pods. What used to be previously capped at ~190 pods could now be scaled to 1000 and more based on the load. Controlling the rate at which ingestion is happening in the DB made sure the DB did not go down due to unprecedented load, thus improving the reliability of our system.",
