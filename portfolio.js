@@ -18,9 +18,9 @@ export const contact = {};
 
 export const socialLinks = {
 	github: "https://github.com/pro-coder123",
-	linkedin: "",
+	linkedin: "https://www.linkedin.com/",
 	stackoverflow: "https://stackoverflow.com/users/10994745/varun-mukundhan",
-	leetcode: ""
+	leetcode: "https://leetcode.com"
 };
 
 export const skillsSection = {
