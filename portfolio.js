@@ -18,7 +18,7 @@ export const contact = {};
 
 export const socialLinks = {
 	github: "https://github.com/pro-coder123",
-	linkedin: "https://www.linkedin.com/in/varun-mukundhan/",
+	linkedin: "",
 	stackoverflow: "https://stackoverflow.com/users/10994745/varun-mukundhan",
 	leetcode: ""
 };
