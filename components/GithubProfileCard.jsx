@@ -19,7 +19,7 @@ const GithubProfileCard = ({ prof }) => {
 								<i className="fa fa-envelope-open mr-3"/> <a href="mailto: varun.mukundhan@gmail.com" className="text-info">varun.mukundhan@gmail.com</a> <br/>
 							</div>
 							<div className="icon-shape shadow rounded text-info">
-								<i className="fa fa-solid fa-phone mr-3"/> +918939530620<br/>
+								<i className="fa fa-solid fa-phone mr-3"/> (602) 768-7348<br/>
 							</div>
 							<SocialLinks />
 						</Col>
