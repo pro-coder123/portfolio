@@ -21,7 +21,7 @@ export const socialLinks = {
 	github: "https://github.com/pro-coder123",
 	linkedin: "https://www.linkedin.com/",
 	stackoverflow: "https://stackoverflow.com/users/10994745/varun-mukundhan",
-	leetcode: "https://leetcode.com"
+	leetcode: "https://leetcode.com/codezer/"
 };
 
 export const skillsSection = {
