@@ -5,7 +5,7 @@ export const greetings = {
 	title: "Hi there, I'm Varun",
 	description:
 		"Welcome to my corner of the internet! I am a backend developer with a focus on distributed systems. I am really passionate about\n" +
-		"programming and problem solving in general. I have over 3 years of industry experience in building and scaling applications in production.\n" +
+		"programming and problem solving in general. I have over 3 years of industry experience in building and scaling applications in production.\n\n" +
 		"Currently, I am pursuing my master's degree in Computer science & engineering from ASU.",
 	resumeLink:
 		"https://drive.google.com/file/d/1xyMv0p9cIvd3aQEUHZQ5im101mq7undt/view?usp=sharing",
