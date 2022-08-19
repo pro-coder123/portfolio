@@ -6,6 +6,7 @@ export const greetings = {
 	description:
 		"Welcome to my corner of the internet! I am a backend developer with a focus on distributed systems. I am really passionate about\n" +
 		"programming and problem solving in general. I have over 3 years of industry experience in building and scaling applications in production.",
+	"Currently, I am pursuing my master's degree in Computer science & engineering from ASU.",
 	resumeLink:
 		"https://drive.google.com/file/d/1xyMv0p9cIvd3aQEUHZQ5im101mq7undt/view?usp=sharing",
 };
@@ -187,7 +188,7 @@ export const experience = [
 			"LCA(least common ancestor) to find the common mentor who mentored two given mentees.",
 			"In addition to development, the infrastructure auto-scaling functionality I designed and implemented saved the\n" +
 			"company $0.07 per service call in infrastructure cost and ensured maximum availability and traffic readiness. This was implemented using AWS autoscaling groups and lambda functions",
-			],
+		],
 	},
 	{
 		role: "Software engineer",
