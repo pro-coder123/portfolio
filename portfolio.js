@@ -4,9 +4,8 @@ export const greetings = {
 	name: "Varun Mukundhan",
 	title: "Hi there, I'm Varun",
 	description:
-		"Welcome to my corner of the internet! I am a backend developer with a focus on distributed systems. I am really passionate about\n" +
-		"programming and problem solving in general. I have over 3 years of industry experience in building and scaling applications in production.\n\n" +
-		"Currently, I am pursuing my master's degree in Computer science & engineering from ASU.",
+		"Welcome to my corner of the internet! I am a computer science & engineering graduate student at ASU. I am also a backend developer with a focus on distributed systems. I am really passionate about\n" +
+		"programming and problem solving. I have over 3 years of industry experience in building and scaling applications in production.",
 	resumeLink:
 		"https://drive.google.com/file/d/1xyMv0p9cIvd3aQEUHZQ5im101mq7undt/view?usp=sharing",
 };
@@ -149,6 +148,13 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
+		schoolName: "Arizona state university",
+		subHeader: "Master's degree in computer science & engineering",
+		duration: "August 2022 - Present",
+		desc: "",
+		pic: "/img/icons/common/asu.png",
+	},
+	{
 		schoolName: "BITS Pilani",
 		subHeader: "Bachelor's degree in chemical engineering",
 		duration: "August 2015 - July 2019",
@@ -164,7 +170,7 @@ export const experience = [
 		link: "https://www.ycombinator.com/companies/razorpay",
 		link_desc: "YC link",
 		companylogo: "/img/icons/common/rzp.svg",
-		date: "June 2021 – Present",
+		date: "June 2021 – August 2022",
 		desc: "I worked as a backend engineer for the notifications team. My team was responsible for the delivery of every kind of notification from Razorpay. This included SMSes, Emails directly to end users containing OTPs, invoices, etc along with payment confirmation webhooks to the merchants' servers. My team was one of the most crucial teams at Razorpay and as a result, we have aggressive NFR goals, such as availability of five nines.",
 		descBullets: [
 			"I implemented async DB writes of our notification attempts using kafka streams. This led to enormous horizontal scalability of worker pods. What used to be previously capped at ~190 pods could now be scaled to 1000 and more based on the load. Controlling the rate at which ingestion is happening in the DB made sure the DB did not go down due to unprecedented load, thus improving the reliability of our system.",
