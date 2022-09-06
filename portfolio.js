@@ -18,7 +18,7 @@ export const contact = {};
 
 export const socialLinks = {
 	github: "https://github.com/pro-coder123",
-	linkedin: "https://www.linkedin.com/",
+	linkedin: "https://www.linkedin.com/in/varun-mukundhan/",
 	stackoverflow: "https://stackoverflow.com/users/10994745/varun-mukundhan",
 	leetcode: "https://leetcode.com/codezer/"
 };
@@ -35,7 +35,7 @@ export const skillsSection = {
 				emoji(
 					"⚡ Building backend microservices using several popular frameworks"
 				),
-				emoji("⚡ Focus on delivering complete working product including but not limited to solutioning, design, development and infrastructure provisioning"),
+				emoji("⚡ Focus on delivering complete working product including but not limited to solutioning, design, development and infrastructure provisioing"),
 				emoji(
 					"⚡ Familiar with an array of languages and frameworks including Springboot (Java), Django (Python), Ruby on Rails, Javascript and Golang"
 				),
