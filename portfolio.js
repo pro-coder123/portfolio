@@ -35,7 +35,7 @@ export const skillsSection = {
 				emoji(
 					"⚡ Building backend microservices using several popular frameworks"
 				),
-				emoji("⚡ Focus on delivering complete working product including but not limited to solutioning, design, development and infrastructure provisioing"),
+				emoji("⚡ Focus on delivering complete working product including but not limited to solutioning, design, development and infrastructure provisioning"),
 				emoji(
 					"⚡ Familiar with an array of languages and frameworks including Springboot (Java), Django (Python), Ruby on Rails, Javascript and Golang"
 				),
